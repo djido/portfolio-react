@@ -4,9 +4,6 @@ import portfolio from '../images/portfolio.png'
 
 
 const portfolioData = { 
-	"imageUrl": 'http://localhost:3000/',
-	"logo": "images/app-logo.svg",
-	"logoWhite": "images/app-logo-white.svg",
 	"profession": "Front-end Developer",
 	"intro": "Let's build amazing stuff.",
 	"desc": "Producing high quality responsive websites and exceptional user experience.",
@@ -17,8 +14,8 @@ const portfolioData = {
 			"id": 0,
 			"title": "DZG Shop",
 			"imageUrl": dzgShop,
-			"link": "https://djido.github.io/dzg-shop/#/",
-			"codeLink": "https://github.com/djido/",
+			"link": "https://dzg-shop.netlify.app/#/",
+			"codeLink": "https://github.com/djido/dzg-react",
 			"description": "This project works with local data and it's inspired by official fan shop of my favourite football club. It basically display Dinamo Zagreb's popular products by categories.",
 			"technology": ["HTML", "CSS", "React", "Context"]
 		},
@@ -26,8 +23,8 @@ const portfolioData = {
 			"id": 1,
 			"title": "Personal Portfolio",
 			"imageUrl": portfolio,
-			"link": "https://github.com/djido/",
-			"codeLink": "https://github.com/djido/",
+			"link": "https://franjodjido.netlify.app/",
+			"codeLink": "https://github.com/djido/portfolio-react",
 			"description": "My personal portfolio built using React where I'm going to showcase informations about myself and projects I built. I have designed it and build it from scratch.",
 			"technology": ["HTML","CSS", "SASS", "Javascript", "React"]
 		},
@@ -37,7 +34,7 @@ const portfolioData = {
 			"imageUrl": nootka,
 			"link": "http://podcastproducer.org/",
 			"codeLink": "",
-			"description": "Nootka Sound is a website built for a professional podcast production facility. I have designed it for my client from Upwork. Website is built using popular CMS system - Wordpress.",
+			"description": "Nootka Sound is a website built for a professional podcast production facility. I have designed it for my client Nemanja from Upwork. Website is built using popular CMS system - Wordpress.",
 			"technology": ["CSS", "Javascript", "Wordpress"]
 		}								
 		],
