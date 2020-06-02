@@ -10,7 +10,7 @@ const About = (props) => {
                     <h2 className="about-me__greeting">{data.greeting}</h2>
                     <p className="about-me__description">{data.about}</p>
                     <div className="icon-container">
-                        <a href="https://djido.github.io"><FaGithub className="icon" /></a> <a href="https://www.linkedin.com/in/franjo-%C4%91ido-12732b1ab/"><FaLinkedinIn className="icon" /></a>
+                        <a href="https://github.com/djido/" target="_blank" rel="noopener noreferrer"><FaGithub className="icon" /></a> <a href="https://www.linkedin.com/in/franjo-%C4%91ido-12732b1ab/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn className="icon" /></a>
                     </div>
                 </div>
         </section>
