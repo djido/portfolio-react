@@ -10,7 +10,6 @@ const Header = () => {
         return () => window.removeEventListener("click", handleClickOutside);
     }, []);
 
-    //close sidebar when click outside
     const handleClickOutside = e => {
         if (e.target.classList.contains("overlay")) {
             setIsOpenSidebar(false);
